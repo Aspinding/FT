@@ -1,0 +1,40 @@
+﻿figure {
+  margin: 0;
+  padding: 0;
+}
+
+.slide-container {
+  position: relative;
+}
+
+.slide-container img {
+  width: 100%;
+  height: 300px;
+}
+.slide-container .prev,
+.slide-container .next {
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: auto;
+  margin-top: -22px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.slide-container .prev:hover,
+.slide-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slide-container .next {
+  right: 0;
+}
+
+.fade {
+  animation: fade 2s;
+}
